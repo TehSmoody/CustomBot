@@ -88,8 +88,8 @@
         filterChat: true,
         etaRestriction: false,
         welcome: false,
-        opLink: https://docs.google.com/document/d/15uvwSP7UpruMVasa5dtgDwJRN9YAIUnmKh8HAYHOfBE/edit?usp=sharing,
-        rulesLink: https://docs.google.com/document/d/15uvwSP7UpruMVasa5dtgDwJRN9YAIUnmKh8HAYHOfBE/edit?usp=sharing,
+        opLink: null,
+        rulesLink: null,
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
@@ -101,6 +101,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/TehSmoody/CustomBot/master/BasicBot.js', extend);
+    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
 
 }).call(this);
