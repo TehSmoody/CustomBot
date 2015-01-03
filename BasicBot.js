@@ -16,7 +16,6 @@
         /*
          Extend the bot here, either by calling another function or here directly.
          Model code for a bot command:
-
          bot.commands.commandCommand = {
          command: 'cmd',
          rank: 'user/bouncer/mod/manager',
@@ -29,7 +28,6 @@
          }
          }
          }
-
          */
 
         bot.commands.baconCommand = {
@@ -53,12 +51,12 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "FutBot",
+        botName: "Futbot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 90,
         afkRemoval: true,
-        maximumDc: 60,
+        maximumDc: 120,
         bouncerPlus: true,
         lockdownEnabled: false,
         lockGuard: false,
@@ -88,16 +86,20 @@
         filterChat: true,
         etaRestriction: false,
         welcome: false,
-        opLink: "https://docs.google.com/document/d/15uvwSP7UpruMVasa5dtgDwJRN9YAIUnmKh8HAYHOfBE/edit",
-        rulesLink: "https://docs.google.com/document/d/15uvwSP7UpruMVasa5dtgDwJRN9YAIUnmKh8HAYHOfBE/edit",
+        opLink: null,
+        rulesLink: "https://docs.google.com/document/d/15uvwSP7UpruMVasa5dtgDwJRN9YAIUnmKh8HAYHOfBE/edit#heading=h.r0xzmk9x2v4b",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: false,
-        commandLiteral: "!"
+        songstats: true,
+        commandLiteral: "!",
+        blacklists: {
+            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+        }
     }));
 
     //Start the bot and extend it when it has loaded.
