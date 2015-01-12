@@ -51,12 +51,12 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Futbot",
+        botName: "FutBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 90,
         afkRemoval: true,
-        maximumDc: 120,
+        maximumDc: 90,
         bouncerPlus: true,
         lockdownEnabled: false,
         lockGuard: false,
@@ -68,7 +68,7 @@
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 1,
+        lockskipPosition: 2,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
