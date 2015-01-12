@@ -84,7 +84,7 @@
         motdInterval: 5,
         motd: "Temporary Message of the Day",
         filterChat: true,
-        etaRestriction: false,
+        etaRestriction: true,
         welcome: false,
         opLink: "https://docs.google.com/spreadsheets/d/1F9zxl2ApXT_aBX0RcV91YcxWrDh8VQCy5EJPqZ-f644/edit#gid=0",
         rulesLink: "https://docs.google.com/document/d/15uvwSP7UpruMVasa5dtgDwJRN9YAIUnmKh8HAYHOfBE/edit#heading=h.r0xzmk9x2v4b",
