@@ -86,7 +86,7 @@
         filterChat: true,
         etaRestriction: false,
         welcome: false,
-        opLink: null,
+        opLink: "https://docs.google.com/document/d/15uvwSP7UpruMVasa5dtgDwJRN9YAIUnmKh8HAYHOfBE/edit#heading=h.r0xzmk9x2v4b",
         rulesLink: "https://docs.google.com/document/d/15uvwSP7UpruMVasa5dtgDwJRN9YAIUnmKh8HAYHOfBE/edit#heading=h.r0xzmk9x2v4b",
         themeLink: null,
         fbLink: null,
